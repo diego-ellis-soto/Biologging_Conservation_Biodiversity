@@ -3,7 +3,7 @@
 # Add Movebank Deployment locations next:
 # --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- ---
 
-setwd('/Users/diegoellis/Desktop/Projects/Postdoc/Reviews/PNAS_Biologging_Review')
+
 newcrs = "+proj=robin +lon_0=0 +x_0=0 +y_0=0 +ellps=WGS84 +datum=WGS84 +units=m +no_defs"
 
 # Load remote sensing variables:
