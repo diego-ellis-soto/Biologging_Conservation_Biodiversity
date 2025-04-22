@@ -88,8 +88,8 @@ deployment_global = ggplot() +
   ) +
   geom_polygon(data = NE_box_proj,
                aes(x = long, y = lat), colour = "black", fill = "transparent", size = 0.12)+
-  # geom_point(data = one_p_pday, aes(x = location.long, y = location.lat)) +
-  geom_bin2d(data = all_studies_sp_df, aes(x = main_location_long.1, y = main_location_lat.1),
+#   geom_point(data = one_p_pday, aes(x = location.long, y = location.lat)) +
+  geom_bin2d(data = all_studies_sp_df, aes(x = main_location_long, y = main_location_lat),
              bins = 100) +
   theme_void() +
   # ylim(-90, 90) +
