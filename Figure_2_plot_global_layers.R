@@ -99,7 +99,7 @@ H_mod_50_reproj  = terra::project(H_mod_50,
 
 
 
-loginStored<-movebankLogin(username="COVID-19_IBS", password="covid19ibs")
+loginStored<-movebankLogin(username="XXX", password="XXX")
 
 all_studies <- getMovebank(entity_type = "study", login=loginStored) %>% drop_na(main_location_long,
                                                                                  main_location_lat) |>
