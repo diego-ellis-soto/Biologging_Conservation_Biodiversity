@@ -45,7 +45,7 @@ Travel_Time_city_50_reproj = terra::project(Travel_Time_city_50,
 
 
 
-loginStored<-movebankLogin(username="COVID-19_IBS", password="covid19ibs")
+loginStored<-movebankLogin(username="", password="")
 
 all_studies <- getMovebank(entity_type = "study", login=loginStored) %>% drop_na(main_location_long,
                                                                                  main_location_lat) |>
